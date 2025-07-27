@@ -50,15 +50,17 @@ kotlin {
 }
 
 repositories {
+    // repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     google()
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 
 dependencies {
-    // implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // implementation fileTree(dir: 'libs', include: ['*.aar'])
     implementation project(':capacitor-android')
-    implementation "com.capacitorjs:osinappbrowser-android:1.2.1@aar"
+    implementation 'com.github.deepcyan-ai:OSInAppBrowserLib-Android:intent-fix'
     implementation 'androidx.browser:browser:1.8.0'
     implementation "androidx.constraintlayout:constraintlayout:2.2.0-alpha13"
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
