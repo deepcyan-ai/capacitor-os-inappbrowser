@@ -21,7 +21,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapacitorInappbrowser.podspec"
+    "DeepcyanAiInappbrowser.podspec"
   ],
   "author": "Outsystems",
   "license": "MIT",
