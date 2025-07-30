@@ -60,7 +60,7 @@ repositories {
 dependencies {
     // implementation fileTree(dir: 'libs', include: ['*.aar'])
     implementation project(':capacitor-android')                               
-    implementation 'com.github.deepcyan-ai:OSInAppBrowserLib-Android:d065388543'
+    implementation 'com.github.deepcyan-ai:OSInAppBrowserLib-Android:intent-fix-SNAPSHOT'
     implementation 'androidx.browser:browser:1.8.0'
     implementation "androidx.constraintlayout:constraintlayout:2.2.0-alpha13"
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
